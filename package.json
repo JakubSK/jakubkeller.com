@@ -1,0 +1,28 @@
+{
+  "name": "jakubkeller.com",
+  "version": "1.0.0",
+  "description": "Jakub Keller's Official Site",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubSK/jakubkeller.com.git"
+  },
+  "keywords": [
+    "jakubkeller"
+  ],
+  "author": "Jakub Keller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakubSK/jakubkeller.com/issues"
+  },
+  "homepage": "https://github.com/JakubSK/jakubkeller.com#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.1",
+    "stylus": "^0.54.5",
+    "winston": "^2.4.1"
+  }
+}

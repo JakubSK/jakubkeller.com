@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
+h1.header {
+  color: #000000;
+}
+
+h2.sub-header {
+  color: #E9561D;
+}

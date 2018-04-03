@@ -27,7 +27,7 @@ app.use(express.static(__dirname + '/public'));
 // Mount routers at specific resource paths
 app.use('/', require('./routers/site.js'));
 
-let port = 80;
+let port = process.env.PORT || 80;
 
 server.listen(port, function(){
   winston.info(`Development platform started on port ${port}`);
